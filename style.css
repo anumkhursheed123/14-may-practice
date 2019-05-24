@@ -51,8 +51,8 @@ li a{
     color:white;
     text-decoration: none;
 }
-img{
-    height: 30px; 
+#navigation img{
+    height: 40px; 
 }
 #main{
     
@@ -66,11 +66,7 @@ img{
     align-items: center;
 }
     
-/* #main h1{
-    font-size:3em;
-} */
-/* #main h1{ */
-    /* font-family: 'Josefin Sans', sans-serif; */
+
  hr{
     margin-left:250px;
     margin-right:250px;
@@ -125,19 +121,11 @@ h2{
     padding: 0;
 }
 
-/* #portfolio img{
-   display: flex;
-   flex:33.33%;
-   padding:5px;
-    margin:30px;
-    height:300px;
-    width:300px; */
 
 #Contact{
     text-align: center;
     background-color: #afc7c6;
- 
-
+    padding-bottom: 20px;
 }
 .call{
     padding-top: 40px;
@@ -177,13 +165,6 @@ h2{
 section{
     margin:0px;
 }
-/* .fb i:hover{
-background-color: #fcdea6;
-}
-button.fb:hover{
-    background-color: black;
-} */
-
 .fb:hover{
     background-color: black;
 }
@@ -202,60 +183,7 @@ button.fb:hover{
 .fb i:hover{
     color: #fcdea6;
 }
-/* .caption{
-    background-color: black;
-    display:none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    position: absolute;
-    top:0px;
-    width:20%;
-    height:20%;
-    border-radius:13px;
-    opacity:0.7; */
-}
-/* .caption{
-    position:absolute;
-    background-color: black;
-}
-.caption button{
-    height: 76px;
-    border-radius: 100%;
-    width: 70px;
-    border:1px solid white;
-}
-#t i {
-    height: 20px;
-    width: 20px; */
-}
-/* .row{
-    display:flex;
-}
 
-.project{
-    flex:33.33%;
-    padding:5px;
-    position: relative; */
-}
-/* .project:hover .caption{
-    display:flex;
-}
-.e .t .h{
-    height:50px;
-    width:50px;
-} */
-/* .tt{
-border-radius:100%;
-}
-.hh{
-border-radius:100%;
-
-}
-.ey{
-border-radius:100%;
-} */
 .info{
     color: black;
     width:30%;
@@ -284,22 +212,7 @@ color:red;
  .hijab{
      position: relative;
  }
- /*.caption{
-     background-color: black;
-     border-radius:10px;
-     width:100%;
-     height:100%;
-     display: none;
-     flex-direction: row;
-     position:absolute;
-     justify-content: center;
-     top:0;
-     color:white;
-     opacity:0.7;
- }
- .hijab:hover figcaption{
-     display:flex;*/
- }
+ 
 .hover {
     font-size: 18px;
     height: 100%;
@@ -307,21 +220,60 @@ color:red;
     background-color: #160d0e;
 }
 
- .hijab i{
-    border:1px solid white;
-    border-radius:100%;
-    height: 40px;
-    width: 40px;
-    font-size:12px;
-    display: flex;
-    /* justify-content: space-between; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
- }
+ } */
  .ic{
      padding-top:20px;
      text-align:center;
      display: flex;
      flex-direction:column;
  }
+ 
+.icons{
+    text-align:center;
+}
+.ie{
+    border: 1px solid white;
+    border-radius: 100%;
+color: white;
+background-color: black;
+
+}
+.it{
+    font-size:2px;
+   border: 1px solid white;
+    border-radius: 100%;
+color: white;
+background-color: black;
+
+}
+.ih{
+   border: 1px solid white;
+   position: absolute;
+    border-radius: 100%;
+color: white;
+background-color: black;
+}
+
+.fig{
+    height: 200px;
+    width: 214px;
+    position: relative;
+  
+}
+.one{
+    height: 200px;
+    width: 214px;
+    top:0;
+    position: absolute;
+    opacity: 0;
+    background-color:black;
+}
+.fig:hover  .one{
+    opacity:0.7;
+    }
+   .service:hover i{
+       color: red;
+   }
