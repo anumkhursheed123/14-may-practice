@@ -85,7 +85,6 @@ border-style: none;
 #Services{
     font-family: 'Satisfy', cursive;;
     background-color: #efece7;
- 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,10 +219,6 @@ color:red;
     background-color: #160d0e;
 }
 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- } */
  .ic{
      padding-top:20px;
      text-align:center;
@@ -277,3 +272,13 @@ background-color: black;
    .service:hover i{
        color: red;
    }
+@media(max-width:400px){
+.row{
+        display: flex;
+        flex-direction: column;
+}
+@media(max-width:600px){
+#portfolio {
+    display: flex;
+    flex-direction: column;
+}
